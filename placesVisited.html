@@ -9,11 +9,51 @@
   </head>
   <body>
     <div class="container">
+      <h1>These are the places Josue has been.</h1>
+      <h2>Be jealous.</h2>
+      <form id="new-place">
+        <div class='form-group'>
+          <input type="text" id="place-name" class="form-control" placeholder="Place you've been">
+        </div>
+        <div class="form-group">
+          <input type="text" id="date-visited" class='form-control' placeholder='Date visited'>
+        </div>
+        <div class='form-group'>
+          <input type="text" id="place-description" class="form-control" placeholder="Description">
+        </div>
+        <div class='form-group'>
+          <input type="text" id="place-rating" class='form-control' placeholder="Rating">
+        </div>
 
+        <div id="new-landmarks">
+          <div class="new-landmark">
+            <div class="form-group">
+              <input type="text" class="form-control landmark" placeholder="Landmark">
+            </div>
+          </div>
+        </div>
 
+        <span class="btn btn-primary" id="add-landmark">Another Landmark</span>
+        <button id='submit' class="btn btn-warning">Add Place</button>
+      </form>
 
+      <h2>Locals</h2>
+      <ul id="places">
 
+      </ul>
+      <div class="col-md-6">
+        <div id="show-place">
+          <h2></h2>
 
+          <p>Date Visited: <span class="date-visited"></span></p>
+          <p>Description: <span class="place-description"></span></p>
+          <p>Rating: <span class="place-rating"></span></p>
+          <p>Landmarks: <span class="landmark"></span></p>
+          <ul id="landmarks">
+
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
